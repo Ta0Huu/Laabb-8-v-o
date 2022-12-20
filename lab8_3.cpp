@@ -2,15 +2,23 @@
 using namespace std;
 
 char before(char x){
-	
-	while()
+	char y;
+	if(x <= 'Z' and x >= 'A'){
+		if(x == 'A'){
+			y = 'Z';
+		}
+		else{
+			y = x-1;
+		}
 
-	char y = 'x'-0;
-	
+	}
+	else {
+		y = '0';
+	}
+	return y;
 }
 
 int main(){
-	//Test Case
 	cout << before('A') << "\n";
 	cout << before('B') << "\n";
 	cout << before('P') << "\n";
