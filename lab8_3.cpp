@@ -2,7 +2,11 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	
+	while()
+
+	char y = 'x'-0;
+	
 }
 
 int main(){
